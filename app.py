@@ -1,4 +1,5 @@
 import os
+import depth_pro
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"]='1'
 from huggingface_hub import snapshot_download
 from llama_cpp import Llama
